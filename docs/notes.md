@@ -17,6 +17,7 @@
 * [Rust](https://www.rust-lang.org/en-US/)
 * [Go](https://golang.org/)
 * [Alpaca](https://github.com/alpaca-lang/alpaca)
+* [SWI-Prolog](http://www.swi-prolog.org/)
 
 ### Misc
 
