@@ -1,0 +1,37 @@
+{
+  "name": "cutestack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "yarn run build:client",
+    "build:client": "browserify client/app.js -o public/bundle.js",
+    "predevelop": "yarn run build",
+    "develop": "nodemon server/server.js",
+    "postinstall": "yarn run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iensu/cutestack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iensu/cutestack/issues"
+  },
+  "homepage": "https://github.com/iensu/cutestack#readme",
+  "dependencies": {
+    "browserify": "^14.3.0",
+    "choo": "^5.4.0",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "nodemon": "^1.11.0"
+  }
+}
