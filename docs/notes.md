@@ -19,6 +19,7 @@
 * [Go](https://golang.org/)
 * [Alpaca](https://github.com/alpaca-lang/alpaca)
 * [SWI-Prolog](http://www.swi-prolog.org/)
+* [Perl](https://perl6.org/)
 
 ### Misc
 
