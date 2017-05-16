@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "yarn run build:client",
-    "build:client": "browserify client/app.js -o public/bundle.js",
+    "build:client": "browserify client/app.js --debug -o public/bundle.js",
     "predevelop": "yarn run build",
     "develop": "nodemon server/server.js",
     "postinstall": "yarn run build",
